@@ -58,7 +58,7 @@ void createUser(User *userVar)
     getline(cin, quest1);
     cin.ignore(10000, '\n');
     
-    vector<string> randomQuestion{ "What is your favorite color?", "Waht is the capital of Assyria?", "What is the airspeed velocity of an unladen swallow?" };
+    vector<string> randomQuestion{ "What is your favorite color?", "What is the capital of Assyria?", "What is the airspeed velocity of an unladen swallow?" };
 
     int questNum = rand() % 3;
     cout << randomQuestion[questNum] << endl;
