@@ -1,2 +1,3 @@
 # girlsjustwannahavefun
-Simple games implemented in different languages 
+
+Simple games implemented in different languages
